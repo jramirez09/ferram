@@ -2,17 +2,79 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="affordable and professional web design">
 	<meta name="keywords" content="web design, affordable web design, professional web design">
 	<meta name="author" content="Jorge Ramirez">
 
 
 	<title>FERRAM Web Design | Welcome</title>
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
-
+	<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 <body>
+	<nav class="navbar" role="navigation" aria-label="main navigation">
+		<div class="navbar-brand">
+			<a class="navbar-item" href="https://bulma.io">
+				<img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+			</a>
+
+			<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+			</a>
+		</div>
+
+		<div id="navbarBasicExample" class="navbar-menu">
+			<div class="navbar-start">
+				<a class="navbar-item">
+					Home
+				</a>
+
+				<a class="navbar-item">
+					Documentation
+				</a>
+
+				<div class="navbar-item has-dropdown is-hoverable">
+					<a class="navbar-link">
+						More
+					</a>
+
+					<div class="navbar-dropdown">
+						<a class="navbar-item">
+							About
+						</a>
+						<a class="navbar-item">
+							Jobs
+						</a>
+						<a class="navbar-item">
+							Contact
+						</a>
+						<hr class="navbar-divider">
+						<a class="navbar-item">
+							Report an issue
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="navbar-end">
+				<div class="navbar-item">
+					<div class="buttons">
+						<a class="button is-primary">
+							<strong>Sign up</strong>
+						</a>
+						<a class="button is-light">
+							Log in
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
 
 	<header>
 		<div class="container">
@@ -29,40 +91,93 @@
 		</div>
 	</header>
 
-	<section id="showcase">
+	<section id="showcase" class="secondary-color section">
 		<div class="container">
-			<h1> Modern and Affordable Web Design</h1>
-			<p>Using the latest technologies and resources to bring your dream projects live and running
+			<h1 class="title has-text-white is-size-1"> Modern & Affordable Web Design</h1>
+			<p class="subtitle has-text-white">using latest technology to bring your dream projects alive and running
 			</p>
+			<button class="button is-medium is-primary">Contact Us</button>
 		</div>
 	</section>
 
+
 	<section id="boxes">
 		<div class="container">
-			<div class="box">
-				<img src="./img/web-icon.png">
-				<h3>Website Development</h3>
-				<p>Dynamic Websites that address your needs</p>
-			</div>
+			<div class="columns">
+				<div class="column has-text-centered">
+                    <div class="service-item">
+						<img src="./img/web-icon.png">
+						<h3 class="is-size-4">Website Development</h3>
+						<p>Dynamic Websites that address your needs</p>
+					</div>
+				</div>
 
-			<div class="box">
-				<img src="./img/mobile-icon.png">
-				<h3>Mobile Applications</h3>
-				<p>iOS, Android or Cross-Platform applications</p>
-			</div>
+				<div class="column has-text-centered">
+					<div class="service-item">
+						<img src="./img/mobile-icon.png">
+						<h3 class="is-size-4">Mobile Applications</h3>
+						<p>iOS, Android or Cross-Platform applications</p>
+					</div>
+				</div>
 
-			<div class="box">
-				<img src="./img/seo-icon.png">
-				<h3>SEO</h3>
-				<p>Search Engine Optimization to spread your brand through all engines</p>
-			</div>
+				<div class="column has-text-centered">
+                    <div class="service-item">
+						<img src="./img/seo-icon.png">
+						<h3 class="is-size-4">SEO</h3>
+						<p>Search Engine Optimization to spread your brand through all engines</p>
+					</div>
+				</div>
 
-			<div class="box">
-				<img src="./img/advertising-icon.png">
-				<h3>Advertising</h3>
-				<p> Managing Advertising and Branding across all Social Media platforms </p>
+				<div class="column has-text-centered">
+					<div class="service-item">
+						<img src="./img/seo-icon.png">
+						<h3 class="is-size-4">Advertising</h3>
+						<p> Managing Advertising and Branding across all Social Media platforms </p>
+					</div>
+				</div>
 			</div>
+		</div>
+	</section>
 
+	<section class="section">
+		<div class="container">
+            <div class="has-text-centered">
+				<h2 class="title is-text-3"> Our Portfolio</h2>
+			</div>
+            <div class="columns">
+				<div class="column has-text-centered">
+					<div class="project-item">
+						<img src="https://chpaonline.org/clientuploads/directory/companyInfo/inhabitr-furniture-logo.png" class="image is-3by2"/>
+                        <div>
+							Inhabitr Furniture
+						</div>
+					</div>
+				</div>
+				<div class="column has-text-centered">
+					<div class="project-item">
+						<img src="https://chpaonline.org/clientuploads/directory/companyInfo/inhabitr-furniture-logo.png" class="image is-3by2"/>
+						<div>
+							Inhabitr Furniture
+						</div>
+					</div>
+				</div>
+				<div class="column has-text-centered">
+					<div class="project-item">
+						<img src="https://chpaonline.org/clientuploads/directory/companyInfo/inhabitr-furniture-logo.png" class="image is-3by2"/>
+						<div>
+							Inhabitr Furniture
+						</div>
+					</div>
+				</div>
+				<div class="column has-text-centered">
+					<div class="project-item">
+						<img src="https://chpaonline.org/clientuploads/directory/companyInfo/inhabitr-furniture-logo.png" class="image is-3by2"/>
+						<div>
+							Inhabitr Furniture
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 

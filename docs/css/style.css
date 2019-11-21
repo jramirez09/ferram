@@ -107,17 +107,9 @@ header a:hover{
 
 /*Showcase*/
 #showcase{
-/*	min-height: 400px;
-*/	background:url('https://qph.fs.quoracdn.net/main-qimg-089c6f85929620dfab10728afb9fe828') no-repeat 0 -400px;
 	text-align: center;
 	color:#ffffff;
 }
-
-#showcase h1{
-	margin-top:100px;
-	font-size: 55px;
-	margin-bottom: 10px;
-	}
 
 #showcase p{
 	font-size:20px;
@@ -212,3 +204,16 @@ footer{
 
 }
 
+.service-item {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.secondary-color {
+	background-color: #0D304B;
+}
+
+.project-item {
+	padding-left: 30px;
+	padding-right: 30px;
+}
