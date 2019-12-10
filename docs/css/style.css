@@ -119,7 +119,8 @@ header a:hover{
 /*Showcase*/
 #showcase{
 /*	min-height: 400px;
-*/	background:url('https://qph.fs.quoracdn.net/main-qimg-089c6f85929620dfab10728afb9fe828') no-repeat 0 -400px;
+/* */
+	background: #303F9F;
 	text-align: center;
 	color:#ffffff;
 }
@@ -191,27 +192,7 @@ ul#services  li{
 	margin-bottom: 70px;
 }
 
-.blog-post-items{
 
-font-size: 16px;
-line-height: 1.5em;
-color: #000;
-font-family: 'Work Sans',sans-serif;
-font-weight: 400;
-box-sizing: border-box;
-position: relative;
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-margin-inline-end: 13px;
-margin-block-end: 13px;
-min-height: 250px;
-box-shadow: 0 28px 50px 0 rgba(11,49,61,.4);
--webkit-transition: all ease-in-out .5s;
-max-width: 25%;
-flex: 0 0 25%;
-background-image: url("https://www.andplus.com/hubfs/DSC00874.jpg");
-}
 
 
 footer{
