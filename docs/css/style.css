@@ -120,7 +120,7 @@ header a:hover{
 #showcase{
 /*	min-height: 400px;
 /* */
-	background: #303F9F;
+	background:#303F9F;
 	text-align: center;
 	color:#ffffff;
 }
@@ -192,34 +192,6 @@ ul#services  li{
 	margin-bottom: 70px;
 }
 
-/* formOnline */
-.button {
- border-radius: 0;
- border: none;
-}
-.card-content.login {
-background-color: #f9f6f6;
- border: none;
- height: 400px;
- padding: 40px;
- padding-left: 40px;
-}
-.card-footer-item.register {
- background-color: #284863;
- color: white;
-}
-.input{
-border-width:1px;
- border-radius:15px;
-}
-.card-footer {
-border: none;
-}
-.label {
- font-weight: lighter;
-}
-
-/* End */
 
 
 

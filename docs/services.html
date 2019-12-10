@@ -11,29 +11,60 @@
 	<title>FERRAM Web Design | Services </title>
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
 </head>
 <body>
 
-	<header>
-		<div class="container">
-			<div id="branding">
-				<h1> FERRAM Web Design</h1>
-			</div>
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li class="current"><a href="services.html">Services</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
+	<!-- navstart -->
 
-	<section id="showcase">
+	<nav class="navbar is-link is-fixed-top">
+	<div class="container">
+		<div class="navbar-brand">
+			<a class ="navbar-item" href="index.html" style=" font-weight: bold;">
+				FERRAM Software Solutions
+			</a>
+			<span class="navbar-burger burger" data-target="navMenu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+		</div>
+		<div id="navMenu" class="navbar-menu">
+			<div class="navbar-end">
+				<a href="index.html" class="navbar-item "> Home </a>
+				<a href="about.html" class="navbar-item is-activr"> About</a>
+				<a href="services.html" class="navbar-item">Services</a>
+
+			</div>
+
+		</div>
+	</div>
+
+	</nav>
+
+	<script type="text/javascript">
+	(function(){
+		var burger = document.querySelector('.burger');
+		var nav = document.querySelector('#'+burger.dataset.target);
+
+		burger.addEventListener('click',  function(){
+			burger.classList.toggle('is-active');
+			nav.classList.toggle('is-active');
+		});
+	 })();
+	</script>
+
+	<!-- nav ends -->
+
+	<section id="showcase" class="secondary-color section">
 		<div class="container">
-			<h1> Modern and Affordable Web Design</h1>
-			<p>Using the latest technologies and resources to bring your dream projects live and running
+
+			<h1 class="title has-text-white is-size-2"> FERRAM : Modern & Affordable Web Design</h1>
+			<p class="subtitle has-text-white">using latest technology to bring your dream projects alive and running
 			</p>
+			<!-- <button class="button is-medium is-info">Contact Us</button> -->
 		</div>
 	</section>
 
@@ -58,7 +89,7 @@
 						<p>From indexing your site on all search engines, we also take charge in spreading your brand awareness through all social media platforms.</p>
 					</li>
 				</ul>
-					
+
 			</article>
 
 
