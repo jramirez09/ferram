@@ -168,12 +168,7 @@ form input[type="email"], #quotation input, #quotation textarea{
   }
 
 
-/*main col article*/
 
-article#main-col{
-	float: left;
-	width: 65%;
-}
 
 /*Services*/
 
@@ -193,6 +188,19 @@ ul#services  li{
 }
 
 
+/* ASIDE */
+aside#sidebar{
+	float: right;
+	width: 30%;
+	margin-top:10px;
+}
+
+/*main col article*/
+
+article#main-col{
+	float: left;
+	width: 65%;
+}
 
 
 footer{
